@@ -45,8 +45,8 @@ suspend fun authenticateSpotify(): SuspendableEvent<TokenData, Throwable> = Susp
 @SharedImmutable
 private val spotifyAuthClient by lazy {
     HttpClient {
-        val clientId = "694d8bf4f6ec420fa66ea7fb4c68f89d"
-        val clientSecret = "02ca2d4021a7452dae2328b47a6e8fe8"
+        val clientId = "7149a17ab94e4bc396734ff9b3e66204"
+        val clientSecret = "f875428cb4154db99990f9f49e028574"
 
         install(Auth) {
             basic {
